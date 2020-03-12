@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\creat_pb_func.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\request_pb_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin\multi_eta_struct.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin\multi_eta_struct.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\include\request_pb_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\include\creat_pb_func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\include\include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E2F3FACA-C439-34A5-B1EC-DBEEAC3389E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FF7E45A4-8DEA-33A2-95A7-86EB237ADAE6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

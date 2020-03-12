@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\tmp\CMakeFiles\5cb544d90ca5113196bfceed2313c2f9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B04943EF-0D49-3B9F-B202-72939D96A149}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

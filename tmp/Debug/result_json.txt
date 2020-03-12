@@ -1,0 +1,109 @@
+{
+  "status": 200,
+  "msg": "Ok",
+  "data": {
+    "map_db_version": "19Q1M2",
+    "rp_duration": [
+      {
+        "duration": [
+          {
+            "type": 1,
+            "eta": 0
+          },
+          {
+            "type": 2,
+            "eta": 0
+          },
+          {
+            "type": 3,
+            "eta": 0
+          },
+          {
+            "type": 4,
+            "eta": 0
+          }
+        ]
+      },
+      {
+        "duration": [
+          {
+            "type": 1,
+            "eta": 3
+          },
+          {
+            "type": 2,
+            "eta": 4
+          },
+          {
+            "type": 3,
+            "eta": 6
+          },
+          {
+            "type": 4,
+            "eta": 13
+          }
+        ]
+      },
+      {
+        "duration": [
+          {
+            "type": 1,
+            "eta": 55
+          },
+          {
+            "type": 2,
+            "eta": 74
+          },
+          {
+            "type": 3,
+            "eta": 111
+          },
+          {
+            "type": 4,
+            "eta": 222
+          }
+        ]
+      },
+      {
+        "duration": [
+          {
+            "type": 1,
+            "eta": 3
+          },
+          {
+            "type": 2,
+            "eta": 4
+          },
+          {
+            "type": 3,
+            "eta": 6
+          },
+          {
+            "type": 4,
+            "eta": 12
+          }
+        ]
+      },
+      {
+        "duration": [
+          {
+            "type": 1,
+            "eta": 0
+          },
+          {
+            "type": 2,
+            "eta": 0
+          },
+          {
+            "type": 3,
+            "eta": 0
+          },
+          {
+            "type": 4,
+            "eta": 0
+          }
+        ]
+      }
+    ]
+  }
+}

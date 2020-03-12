@@ -1,0 +1,34 @@
+﻿Build started 2020/3/12 17:36:57.
+     1>Project "F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\tmp\analysis_pb.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\vs2013\VC\bin\x86_amd64\CL.exe /c /IF:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin /IF:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\include /IF:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\include /IE:\Anaconda3\include /ZI /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"analysis_pb.dir\Debug\\" /Fd"analysis_pb.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin\multi_eta_struct.pb.cc F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\creat_pb_func.cpp
+     1>cl : Command line warning D9038: /ZI is not supported on this platform; enabling /Zi instead
+         multi_eta_struct.pb.cc
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\include\google/protobuf/message_lite.h(247): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\include\google/protobuf/wire_format_lite_inl.h(865): warning C4267: 'argument' : conversion from 'size_t' to 'google::protobuf::uint32', possible loss of data
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin\multi_eta_struct.pb.cc(2412): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin\multi_eta_struct.pb.cc(2466): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin\multi_eta_struct.pb.cc(2489): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin\multi_eta_struct.pb.cc(2874): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin\multi_eta_struct.pb.cc(2945): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin\multi_eta_struct.pb.cc(3004): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin\multi_eta_struct.pb.cc(3060): warning C4267: 'argument' : conversion from 'size_t' to 'google::protobuf::int32', possible loss of data
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin\multi_eta_struct.pb.cc(3503): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin\multi_eta_struct.pb.cc(3558): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\bin\multi_eta_struct.pb.cc(3586): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         creat_pb_func.cpp
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\ThirdParty\protobuf\windows\include\google/protobuf/message_lite.h(247): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\creat_pb_func.cpp(143): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\vs2013\VC\include\stdio.h(211) : see declaration of 'fopen'
+         Generating Code...
+       Link:
+         E:\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\tmp\Debug\analysis_pb.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:/python_study/request_pb_80_server_multi_eta/analysis_pb_c_20/ThirdParty/protobuf/windows/lib /LIBPATH:F:/python_study/request_pb_80_server_multi_eta/analysis_pb_c_20/ThirdParty/protobuf/windows/lib/Debug /LIBPATH:E:/Anaconda3/libs /LIBPATH:E:/Anaconda3/libs/Debug libprotobufd.lib libprotocd.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/python_study/request_pb_80_server_multi_eta/analysis_pb_c_20/tmp/Debug/analysis_pb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/python_study/request_pb_80_server_multi_eta/analysis_pb_c_20/tmp/Debug/analysis_pb.lib" /MACHINE:X64  /machine:x64 analysis_pb.dir\Debug\main.obj
+         analysis_pb.dir\Debug\creat_pb_func.obj
+         analysis_pb.dir\Debug\request_pb_server.obj
+         analysis_pb.dir\Debug\multi_eta_struct.pb.obj
+         analysis_pb.vcxproj -> F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\tmp\Debug\analysis_pb.exe
+     1>Done Building Project "F:\python_study\request_pb_80_server_multi_eta\analysis_pb_c_20\tmp\analysis_pb.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.26

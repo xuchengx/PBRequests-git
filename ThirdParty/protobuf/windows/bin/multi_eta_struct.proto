@@ -1,0 +1,99 @@
+syntax = "proto3";
+package MultiEtaInfo;  
+
+
+//经纬度结构
+message Point
+{
+	double x = 1;
+	double y = 2;
+}
+
+//路况信息
+message TrafficInfo
+{
+	//路况类型
+	int32 type   	= 1;
+	//路况速度
+	int32 speed  	= 2;
+	//路况状态
+	int32 status 	= 3;
+}
+
+//
+message RouteLocation
+{
+	//四维id
+	int32 link_id 		 = 1;
+	//link上的坐标点
+	Point on_link_point = 2;
+}
+//link信息
+message LinkInfo
+{
+	//四维id
+	int32 link_id 	= 1;
+	//link的实际通行方向
+	int32 reversed 	= 2;
+	//路况信息
+	repeated TrafficInfo traffics = 3; 
+}
+
+message Duration
+{
+	int32 type = 1;
+	int32 eta  = 2;
+}
+message RpDuration
+{
+	repeated Duration duration = 1;
+}
+message ResponseData
+{
+	string map_db_version  = 1;
+	repeated RpDuration rp_duration = 2;
+}
+
+//请求结构体
+message Request
+{
+	//起点
+	RouteLocation origin		= 1;
+	//终点
+	RouteLocation destination	= 2;
+	//途经点
+	repeated RouteLocation rpPoint		= 3;
+	//途经点的下标
+	repeated int32 linkIdx				= 4;
+	//link串
+	repeated LinkInfo rpLinks			= 5;
+	//数据版本
+	string map_db_version		= 6;
+}
+
+//响应结构体
+message Response
+{
+	int32 status = 1;
+	string msg = 2;
+	ResponseData data = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
